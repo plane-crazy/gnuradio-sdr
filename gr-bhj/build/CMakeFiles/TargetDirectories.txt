@@ -1,0 +1,12 @@
+/home/brock/sdr/gr-bhj/build/swig/CMakeFiles/_bhj_swig.dir
+/home/brock/sdr/gr-bhj/build/swig/CMakeFiles/_bhj_swig_doc_tag.dir
+/home/brock/sdr/gr-bhj/build/swig/CMakeFiles/_bhj_swig_swig_tag.dir
+/home/brock/sdr/gr-bhj/build/swig/CMakeFiles/bhj_swig_swig_2d0df.dir
+/home/brock/sdr/gr-bhj/build/swig/CMakeFiles/bhj_swig_swig_doc.dir
+/home/brock/sdr/gr-bhj/build/docs/doxygen/CMakeFiles/doxygen_target.dir
+/home/brock/sdr/gr-bhj/build/lib/CMakeFiles/gnuradio-bhj.dir
+/home/brock/sdr/gr-bhj/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/brock/sdr/gr-bhj/build/python/CMakeFiles/pygen_python_2518b.dir
+/home/brock/sdr/gr-bhj/build/swig/CMakeFiles/pygen_swig_731b2.dir
+/home/brock/sdr/gr-bhj/build/lib/CMakeFiles/test-bhj.dir
+/home/brock/sdr/gr-bhj/build/CMakeFiles/uninstall.dir

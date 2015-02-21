@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<block>
+  <name>LMS Equalizer</name>
+  <key>bhj_lms_equalizer_cc</key>
+  <category>bhj</category>
+  <import>import bhj</import>
+  <make>bhj.lms_equalizer_cc($num_taps, $mu, $decimation)</make>
+   <callback>set_gain($mu)</callback>  
+    <param>
+        <name>Gain</name>
+        <key>mu</key>
+        <type>float</type>
+    </param>
+    <param>
+        <name>Num. Taps</name>
+        <key>num_taps</key>
+        <type>int</type>
+    </param>
+    <param>
+        <name>Decimation</name>
+        <key>decimation</key>
+        <type>int</type>
+    </param>
+    <sink>
+        <name>in</name>
+        <type>complex</type>
+    </sink>
+    <source>
+        <name>out</name>
+        <type>complex</type>
+    </source>
+</block>
