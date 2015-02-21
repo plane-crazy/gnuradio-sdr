@@ -2,9 +2,9 @@
 ##################################################
 # Gnuradio Python Flow Graph
 # Title: SSB Weaver
-# Author: Brock Judd
+# Author: Brock Judd N5WSS
 # Description: Upper and Lower Single Sideband Suppressed Carrier
-# Generated: Wed Feb 18 21:32:47 2015
+# Generated: Sat Feb 21 07:03:26 2015
 ##################################################
 
 execfile("/home/brock/.grc_gnuradio/lsb_weaver_modulator.py")
@@ -585,7 +585,7 @@ class ssb_rxtx(grc_wxgui.top_block_gui):
         	noise_seed=1131973,
         	block_tags=False
         )
-        self.blocks_wavfile_source_0 = blocks.wavfile_source("/home/brock/N5WSS-Testing123.wav", True)
+        self.blocks_wavfile_source_0 = blocks.wavfile_source("/home/brock/gnuradio-sdr/N5WSS-Testing123.wav", True)
         self.blocks_multiply_xx_0_0 = blocks.multiply_vcc(1)
         self.blocks_multiply_const_vxx_0_0 = blocks.multiply_const_vff((10**(1.*mic_gain/10), ))
         self.blocks_multiply_const_vxx_0 = blocks.multiply_const_vff((10**(1.*af_gain/10), ))
@@ -980,8 +980,8 @@ class ssb_rxtx(grc_wxgui.top_block_gui):
         self.usb_weaver_modulator_0_0.set_audio_rate(self.audio_rate)
         self.analog_sig_source_x_0_0.set_sampling_freq(self.audio_rate)
         self.band_pass_filter_1.set_taps(firdes.band_pass(1, self.audio_rate*2, 300, 3000, 500, firdes.WIN_KAISER, 6.76))
-        self.lsb_weaver_modulator_0.set_audio_rate(self.audio_rate)
         self.usb_weaver_modulator_0.set_audio_rate(self.audio_rate)
+        self.lsb_weaver_modulator_0.set_audio_rate(self.audio_rate)
 
     def get_ant(self):
         return self.ant
